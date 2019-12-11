@@ -22,7 +22,7 @@ my-nginx-756f645cd7-t8b6w   1/1       Running   0          22m       192.168.79.
 ```
 Now let's inspect the environment of your running nginx Pods (your Pod name will be different):
 ```
-kubectl exec my-nginx-3800858182-jr4a2 -- printenv | grep SERVICE
+kubectl exec <YOUR RUNNING NGINX POD NAME> -- printenv | grep SERVICE
 ```
 ```
 KUBERNETES_SERVICE_PORT_HTTPS=443
