@@ -51,7 +51,7 @@ my-nginx-756f645cd7-t8b6w   0/1       Terminating   0          25m       192.168
 You may notice that the pods have different names, since they are killed and recreated.
 
 ```
-kubectl exec my-nginx-3800858182-e9ihh -- printenv | grep SERVICE
+kubectl exec ,MY NGINX POD NAME> -- printenv | grep SERVICE
 ```
 ```
 MY_NGINX_SERVICE_HOST=10.100.225.196
